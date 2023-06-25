@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
-    "build": "tsc",
+    "build": "npx tsc",
+    "start": "node .build/src/server.js",
     "typeorm": "typeorm-ts-node-commonjs",
-    "test": "cross-env NODE_ENV=test SECRET_KEY=secret_key jest --verbose",
-    "start": "node dist/src/server.js"
+    "test": "cross-env NODE_ENV=test SECRET_KEY=secret_key jest --verbose"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
