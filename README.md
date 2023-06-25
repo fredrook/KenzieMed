@@ -13,7 +13,7 @@ sem a necessidade de entrar em contato com o teleatendimento, em poucos cliques 
 
 <p>Seguindo com o projeto final Modulo 3 de frontend, <a href="https://github.com/grupo-1-projeto-frontend-t12/Projeto-FrontEnd-M3"> Clique Aqui para conhecer a primeira parte do projeto!.</a> Desenvolvemos o backend da aplicação como requesito para conclusão do modulo 4, o primeiro modulo de backend do curso de formação Web Full Stack da Kenzie Academy Brasil.</p>
  
-<p>Nesse projeto foi desenvolvido uma CRUD(Create, Read, Update e delete) seguindo os conceitos de api RestFul, utilizando Typescript, Express, TypeOrm, PostgreSQL, Docker e testes unitários com Jest. </p>
+<p>Nesse projeto foi desenvolvido uma CRUD(Create, Read, Update e delete) seguindo os conceitos de api RestFul, utilizando Typescript, Express, TypeOrm, PostgreSQL e testes unitários com Jest. </p>
  
 <p>Nossa API possui três tipos de usuários: o user comum, doctor e o user administrador que possui maior poder nas rotas, podendo fazer alterações que os outros usuários comuns não pode. </p>
 
