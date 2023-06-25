@@ -1,3 +1,7 @@
 // Procfile
 
-web: npm run start
+build: npx tsc
+
+web: node app.ts
+
+start: npm run start
