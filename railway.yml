@@ -1,0 +1,13 @@
+version: 2
+env: node
+builders:
+  frontend:
+    setup:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
+    start:
+      command:
+        - npm start
