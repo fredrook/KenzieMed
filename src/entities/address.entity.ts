@@ -11,15 +11,14 @@ class Addresses {
   @Column({ length: 8 })
   zipCode: string
 
-  @Column({ length: 10 })
-  number: string
+  @Column({ type: "integer" })
+  number: number
 
-  @Column({ length: 100 })
+  @Column({ length: 2 })
   state: string
 
   @Column()
   city: string
-
 }
 
 export default Addresses
