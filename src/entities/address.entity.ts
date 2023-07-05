@@ -11,10 +11,10 @@ class Addresses {
   @Column({ length: 8 })
   zipCode: string
 
-  @Column({ type: "integer" })
-  number: number
+  @Column({ length: 10 })
+  number: string
 
-  @Column({ length: 2 })
+  @Column({ length: 100 })
   state: string
 
   @Column()

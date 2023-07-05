@@ -1,7 +1,7 @@
 export interface IAddressRequest {
   district: string
   zipCode: string
-  number: number
+  number: string
   city: string
   state: string
 }
@@ -10,6 +10,6 @@ export interface IAddressUpdate {
   city?: string
   state?: string
   district?: string
-  number?: number
+  number?: string
   zipCode?: string
 }
