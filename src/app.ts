@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 // Tratar requisições OPTIONS separadamente
 app.options("*", (req, res) => {
-  res.sendStatus(200)
+  res.sendStatus(200) 
 })
 
 app.use("/login", loginRouter)

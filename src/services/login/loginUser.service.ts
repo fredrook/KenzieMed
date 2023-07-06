@@ -45,7 +45,11 @@ const loginUserService = async ({ email, password }: ILogin) => {
     },
   )
 
-  return token
+  return {
+    token,
+    user,
+    userId: user.id,
+  }
 }
 
 export default loginUserService
